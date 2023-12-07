@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    color: #333;
+}
+
+#display {
+    font-size: 2em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+button {
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #d0d0d0;
+}
+
+#eraser, #neql, #nclal {
+    width: 104px; /* double width for these buttons */
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
